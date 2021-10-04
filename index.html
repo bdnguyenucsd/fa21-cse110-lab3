@@ -18,24 +18,24 @@
                 line breaks were the way to go in moving forward.
             </details>
             <figure>
-                <figurecaption>Video Recording:</figurecaption>
+                <figcaption>Video Recording:</figcaption>
                 <video controls width="250">
                     <source src="video/Meeting.webm" type="video/webm">
                 </video>
             </figure>
             <figure>
-                <figurecaption>Audio Recording:</figurecaption>
+                <figcaption>Audio Recording:</figcaption>
                 <audio controls src="audio/Meeting.mp3"></audio>
             </figure>
 
             <h3>
                 Attendees
-                <ol>
-                    <li>Me</li>
-                    <li>Myself</li>
-                    <li>I</li>
-                </ol>
             </h3>
+            <ol>
+                <li>Me</li>
+                <li>Myself</li>
+                <li>I</li>
+            </ol>
             <h2>Table of Contents</h2>
             <nav>
                 <ol>
@@ -46,16 +46,17 @@
             </nav>
         </header>
         <main>
-            <h2>Agenda</h1>
+            <h2>Agenda</h2>
             <section class="agenda">
                 <ul>
-                    <li>Summarize the last meeting</li>
-                    <ul>
-                        <li>This includes finally accepting that I and Me can't get along</li>
-                        <li>You and Yourself have been cooperating well and have made great strides in advancing
-                            the second person market.
-                        </li>
-                    </ul>
+                    <li>Summarize the last meeting
+                        <ul>
+                            <li>This includes finally accepting that I and Me can't get along</li>
+                            <li>You and Yourself have been cooperating well and have made great strides in advancing
+                                the second person market.
+                            </li>
+                        </ul>
+                    </li>
                     <li>Talk about entering the second person market</li>
                     <li>Competitors developing a new technology</li>
                     <li>Discuss line breaks</li>
@@ -63,17 +64,18 @@
             </section>
             <h2>Unfinished Business</h2>
             <section class="unfinished">
-                <p> 
+                <p>
                     Last time, Myself and I talked about how we are are dominating the <i>first person</i> market.
                     It is of <em class="emphasize">significant</em> importance, that we plan for the unforseen future
                     and tackle our competitors in the <i>second person</i> market. If that is not possible, then we
                     should consider methods to expand and make the <i>second person</i> market obsolete.
-                    <details>
-                        According to our <span class="workers">financial speculators</span>, the second person market is estimated
-                        to be worth around 8 words. Somehow, our think tank thinks that using line breaks will
-                        let us gain a word on our competitors.
-                    </details>
                 </p>
+                <details>
+                    <summary>Details</summary>
+                    According to our <span class="workers">financial speculators</span>, the second person market is estimated
+                    to be worth around 8 words. Somehow, our think tank thinks that using line breaks will
+                    let us gain a word on our competitors.
+                </details>
                 <div class="meme">
                     <img src="images/self_description.png" alt="This is where the meme would go. IF I HAD ONE">
                 </div>
@@ -111,13 +113,13 @@
 
                 <fieldset>
                     <legend> Choose your favorite letter</legend>
-                    <input type="radio" id="A">
+                    <input type="radio" id="lettera" name="lettera">
                     <label for="lettera">A</label><br>
 
-                    <input type="radio" id="B">
+                    <input type="radio" id="letterb" name="letterb">
                     <label for="letterb">B</label><br>
 
-                    <input type="radio" id="C">
+                    <input type="radio" id="letterc" name="letterc">
                     <label for="letterc">C</label>
                 </fieldset>
                 
@@ -126,20 +128,20 @@
                 </p>
 
                 <div>
-                    <input type="checkbox" id="yes">
+                    <input type="checkbox" id="yes" name="yes">
                     <label for="yes">Yes</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="no">
+                    <input type="checkbox" id="no" name="no">
                     <label for="no">No</label>
                 </div>
                 <div>
-                    <input type="checkbox" id="perhaps">
-                    <label for="perphaps">Perhaps</label>
+                    <input type="checkbox" id="perhaps" name="perhaps">
+                    <label for="perhaps">Perhaps</label>
                 </div>
 
                 <label for="is-this-a-form">Is this a form?</label>
-                <input list="form-options" id="form-choices" name="form-choices">
+                <input list="form-options" id="is-this-a-form" name="form-choices">
 
                 <datalist id="form-options">
                     <option value="Yes"></option>
