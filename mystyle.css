@@ -1,0 +1,20 @@
+
+h2, h3 {
+    color:coral
+}
+
+.emphasize {
+    color:rgb(110, 47, 10)
+}
+
+li#attendee1 {
+    color:rgb(148, 39, 39)
+}
+
+li#attendee2 {
+    color:hsl(180, 50%, 50%)
+}
+
+li#attendee3 {
+    color:green
+}
