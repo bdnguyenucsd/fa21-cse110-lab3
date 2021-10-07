@@ -3,10 +3,12 @@ h2, h3 {
     color:coral
 }
 
+/* color to emphasize */
 .emphasize {
     color:rgb(110, 47, 10)
 }
 
+/* color to attendee list */
 li#attendee1 {
     color:rgb(148, 39, 39)
 }
@@ -18,3 +20,39 @@ li#attendee2 {
 li#attendee3 {
     color:green
 }
+
+* {
+    color:rgb(126, 0, 0)
+}
+
+a[href="#agenda"] {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    color:blue;
+}
+
+a[href="#unfinished"] {
+    margin: 12px;
+    color: blue;
+}
+
+a[href="#newbusiness"] {
+    margin:1%;
+    color: blue;
+}
+
+.unfinished .meme {
+    border-style:solid;
+    border-color:crimson;
+    border-width:2px;
+    border-radius:10px;
+}
+
+header > ol > li {
+    border-style:dotted;
+    border-left: 0px;
+    border-right: 0px;
+}
+
