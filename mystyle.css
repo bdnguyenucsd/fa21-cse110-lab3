@@ -28,6 +28,7 @@ li#attendee3 {
     color:rgb(126, 0, 0)
 }
 
+
 a[href="#agenda"] {
     margin-top: 12px;
     margin-bottom: 12px;
@@ -60,7 +61,14 @@ header > ol > li {
     padding: 0.2em;
 }
 
+p ~ p {
+    display: inline-block;
+}
+
+ul > li {
+    display: block
+}
+
 span ~ p {
     text-align:center;
-    color:red;
 }
