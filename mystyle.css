@@ -54,5 +54,6 @@ header > ol > li {
     border-style:dotted;
     border-left: 0px;
     border-right: 0px;
+    padding: 0.2em;
 }
 
