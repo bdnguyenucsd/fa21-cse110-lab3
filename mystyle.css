@@ -1,3 +1,6 @@
+h1 {
+    text-decoration:underline;
+}
 /* Basic color to header elements */
 h2, h3 {
     color:coral
@@ -57,3 +60,7 @@ header > ol > li {
     padding: 0.2em;
 }
 
+span ~ p {
+    text-align:center;
+    color:red;
+}
