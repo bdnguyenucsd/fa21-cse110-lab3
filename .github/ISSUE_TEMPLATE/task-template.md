@@ -8,6 +8,6 @@ assignees: bdnguyenucsd
 ---
 
 **Main Task**
-* Subtask 1
-* Subtask 2
-* Subtask 3
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Task 3
