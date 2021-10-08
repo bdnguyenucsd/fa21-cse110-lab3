@@ -120,9 +120,3 @@ section.newbusiness > p + p {
 section.newbusiness > p {
     grid-column-start:2;
 }
-
-@media all and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
-}
