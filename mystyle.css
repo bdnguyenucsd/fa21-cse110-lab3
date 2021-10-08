@@ -11,6 +11,20 @@ h2, h3 {
     color:rgb(110, 47, 10); 
 }
 
+section.unfinished {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+section.newbusiness {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 /* color to attendee list */
 li#attendee1 {
     color:rgb(148, 39, 39);
@@ -96,4 +110,13 @@ ul > li {
 
 span ~ p {
     text-align:center;
+}
+
+section.newbusiness > p + p {
+    grid-column-start:1;
+    grid-row-start:1;
+}
+
+section.newbusiness > p {
+    grid-column-start:2;
 }
