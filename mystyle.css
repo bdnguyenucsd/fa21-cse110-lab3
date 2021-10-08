@@ -29,6 +29,16 @@ li#attendee3 {
     max-width:15em;
 }
 
+input#lettera {
+    position: relative;
+    right: 5px;
+}
+
+input#letterb {
+    position: absolute;
+    left: 50px;
+}
+
 * {
     color:rgb(126, 0, 0)
 }
