@@ -39,6 +39,14 @@ input#letterb {
     left: 50px;
 }
 
+button:hover {
+    color: blue;
+}
+
+button:active {
+    color:red;
+}
+
 * {
     color:rgb(126, 0, 0)
 }
