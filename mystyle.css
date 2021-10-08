@@ -115,6 +115,7 @@ span ~ p {
 section.newbusiness > p + p {
     grid-column-start:1;
     grid-row-start:1;
+    font-family: 'Dancing Script', cursive;
 }
 
 section.newbusiness > p {
